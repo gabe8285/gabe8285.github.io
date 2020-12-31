@@ -1,0 +1,48 @@
+<li style="float: right"><a href="https://creality3d.shop/?gclid=EAIaIQobChMIq7bzxa7t7QIVBopaBR3Pog21EAAYASAAEgLlKfD_BwE" target="_blank"><img src="img/creality%20logo.png" style="width: 15%; height: auto; top: 50%; overflow: hidden;"></a></li>
+
+
+
+
+
+
+- A sturdy cubic 3D printer designed to be both efficient and esthetic for starting at $399
+
+
+
+
+- Resume printing function - If the power goes down, it will automatically resume
+- Upgraded silent motherboard - Quieter printing
+- TMC2208 drivers - More accuracy for fewer printing errors and better print quality
+- Capricorn Premium XS Bowden Tube - High temperature resistant tube for smoother filament printing and ensuring better texture
+- Metal extruder kit with stronger pressure - Pushes the filament to the printer nozzle more easily, making excellent performance
+- Large bed adjustment nuts - Makes bed leveling easy and fast
+- Soft magnetic self-adhesive platform - Excellent adhesion and convenient for picking up models
+- 45 degree screen - User-friendly design for easy use
+
+
+
+
+
+
+<!-- Trigger/Open The Modal -->
+                                    <div id="meu_div"><span id="myBtn" class="right" style="font-size: 20px;">
+                                        <i class="fas fa-plus"></i>
+                                    </span>
+                                    </div>
+                                
+
+                                <!-- The Modal -->
+                                <div id="myModal" class="modal">
+
+                                    <!-- Modal content -->
+                                    <div class="modal-content">
+                                        <h2 class="modal-title">Basilisk Video:</h2>
+                                        <span class="close">&times;</span>
+                                        <div class="container">
+                                            <div class="embed-container">
+                                                <iframe src='https://www.youtube.com/embed/0TkvmFpijcc' frameborder='0' allowfullscreen></iframe></div>
+                                            </div>
+                                        </div>
+                                        
+                                        
+        

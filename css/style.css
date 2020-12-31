@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: auto;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*top navigation styling*/
+.topnav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #fff;
+    overflow: hidden;
+    position: fixed;
+    right: 0%;
+    z-index: 9;
+    border-radius: 0 0 0 10px;
+}
+.topnav li {
+    float: left;
+    
+    
+}
+
+.topnav li a {
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+}
+.topnav li a:link {
+    color: #fff;
+    text-decoration: none;
+    background-color: #fa7012;
+}
+.topnav li a:visited {
+    color: #fff;
+    text-decoration: none;
+    background-color: #fa7012;
+}
+.topnav li a:hover {
+    color: #fa7012;
+    text-decoration: none;
+    background-color: #fff;
+}
+.topnav li a:active {
+    color: #fa7012;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+
+.caption-pic1 {
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+    color: black;
+    font-family: 'Audiowide', cursive;
+    font-size: 22px;
+}
+
+#logo { 
+    float: left; 
+    top: 0%;
+    background-image: linear-gradient(-45deg, #fff 20%, #fa7012 );
+    border-radius: 0 0 10px 0;
+    position: fixed;
+    
+    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    left: 0%;
+    z-index: 9;
+    
+}
+#nav { width: 15%; /* Too large, just an example */ }
+
+.abt-list {
+    list-style-type: square;
+    color: black;
+    
+    
+    
+}
+
+
+/* Responsive grid */
+/* Define column widths */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/* make columns float left, add padding and border - make sure you remove border when ready*/
+[class*="col-"] {
+  float: left;
+  padding: 20px;
+  
+}
+/* The columns inside a row are all floating to the left, and are therefore taken out of the flow of the page, and other elements will be placed as if the columns do not exist. To prevent this, we will add a style that clears the flow: */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.text-white {
+    color: white;
+    text-align: center;
+}
+
+.reem-kufi {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 20px;
+    
+}
+.red-hat-display {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+.shape1 {
+    display: block;
+    position: absolute;
+    width: 100vw;
+    left: -50vw;
+    background-color: rgb(28, 28, 28);
+}
+.shape2 {
+    clip-path: circle(200vw at 50% calc(99% - 200vw));
+    background-color: rgb(255, 255, 255) !important;
+}
+
+
+
+
+
+/* Style the form element with a border around it */
+form {
+  border: 4px solid #f1f1f1;
+}
+
+/* Add some padding and a grey background color to containers */
+.container1 {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 40%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: transparent;
+  color: grey;
+  border-color: gray;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+input[type=submit]:hover {
+  background-color: #fa7012;
+  color: white;
+  border-color: transparent;
+  border-radius: 5px;
+}
+hr { background-color: white; height: 1px; border: 0; }
+
+.buy {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    
+}
+.credits {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    
+}
+.langar {
+    font-family: 'Langar', cursive;
+    font-size: 20px;
+}
+.Rajdhani {
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.roboto-condensed {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 20px;
+}
